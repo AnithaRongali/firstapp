@@ -1,11 +1,9 @@
-import React from 'react';
-import Todolist from './Todolist';
+import React from "react"
 function Counter(){
     return(
-    <div className='mybox'>
-        <h1>Welcome to counter</h1>
-    
-    </div>
+        <div className="mybox">
+            <h1>Welcome to Counter</h1>
+        </div>
     )
 }
-export default Counter
+export default Counter;
