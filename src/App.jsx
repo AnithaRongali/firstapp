@@ -1,17 +1,12 @@
-import Counter from './Counter';
 import './App.css';
-import Todolist from './Todolist';
-import { Outlet,Link } from 'react-router-dom';
+import Studentform from './Studentform';
 
 function App() {
   return (
-    <div className="mybox">
-     <h1>React JS Application by Anitha Rongali</h1>
-     <Link to='/counter'>Counter</Link>&nbsp;
-     <Link to='/todolist'>Todolist</Link>&nbsp;
-     <Outlet></Outlet>
+    <div style={{padding:'10px',margin:'10px',border:'1px solid black'}}>
+      <h1>App</h1>
+      <Studentform></Studentform>
     </div>
   );
 }
-
 export default App;
